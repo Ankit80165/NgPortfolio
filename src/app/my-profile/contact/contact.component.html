@@ -1,0 +1,95 @@
+<div class="my-container">
+  <div class="container">
+    <div class="row container">
+      <div class="col">
+        <h1 class="project-heading">Contact Me</h1>
+      </div>
+    </div>
+    <div class="row my-row">
+      <div class="col-12 col-md-6 my-col">
+        <div class="col-container">
+          <form [formGroup]="contactForm" (ngSubmit)="submitContactForm()">
+            <div class="input-all">
+              <span>
+                <i class="fas fa-user"></i>
+              </span>
+
+              <input
+                type="text"
+                name="name"
+                id="name"
+                formControlName="name"
+                placeholder="Name"
+              />
+            </div>
+            <div class="input-all">
+              <span>
+                <i class="fas fa-envelope"></i>
+              </span>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                formControlName="email"
+                placeholder="Email"
+              />
+            </div>
+            <div class="input-all">
+              <span>
+                <i class="fas fa-file-alt"></i>
+              </span>
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                formControlName="subject"
+                placeholder="Subject"
+              />
+            </div>
+            <div class="text-areaholder input-all">
+              <textarea
+                name="message"
+                id="message"
+                cols="15"
+                rows="2"
+                formControlName="message"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+            <div>
+              <button class="submit-btn" type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 my-col">
+        <div class="col-container sec-col-container">
+          <h4><i class="fas fa-phone-volume"></i>&nbsp;Phone</h4>
+          <p>8016554262</p>
+          <h4><i class="fas fa-envelope-open-text"></i>&nbsp;Email</h4>
+          <p>ankit.majhirisen357@gmail.com</p>
+          <div>
+            <h4>Social Handles</h4>
+            <div class="social">
+              <a href="https://www.facebook.com/profile.php?id=100009383132996"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/ankit_ascention/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://github.com/Ankit80165"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/ankit-kumar-majhi-142792187/"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="https://twitter.com/Bittu83952506"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+.my-container {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+}
+p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 28px;
+  color: #8a8fa3;
+  margin: 0px;
+}
+.row {
+  /* margin: 2rem 0; */
+  padding: 1rem 0;
+  text-align: center;
+}
+.project-heading {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 1.5rem 0;
+}
+.progress-bar-outer {
+  margin-top: 0.5rem;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: #d9d9d9;
+}
+.progress-bar-inner {
+  height: 4px;
+  /* width: 80%; */
+  border-radius: 2px;
+  background-color: #754ef9;
+}
+.skill-holder {
+  padding: 16px;
+}

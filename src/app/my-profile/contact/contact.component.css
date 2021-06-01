@@ -1,0 +1,90 @@
+.my-container {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  background-color: #754ef9;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(117, 78, 249, 0.75) 50%,
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("../../../assets/images/map3.jpg");
+  padding-bottom: 2rem;
+}
+div.row.container {
+  margin: 1rem 0;
+}
+.row {
+  margin: 2rem auto;
+  padding: 1rem 0;
+  text-align: center;
+}
+.my-row {
+  background-color: white;
+  border-radius: 8px;
+}
+.project-heading {
+  font-size: 45px;
+  font-weight: 700;
+}
+.input-all {
+  width: 90%;
+  margin: 1rem auto;
+  border: 1px solid #754ef9;
+  border-radius: 1.5rem;
+}
+.input-all input {
+  min-width: 75%;
+  border: none;
+  padding: 0.75rem 8px;
+  color: #8a8fa3;
+}
+.input-all textarea {
+  min-width: 75%;
+  border: none;
+  padding: 0.75rem 8px;
+  color: #8a8fa3;
+}
+.input-all input:focus-visible,
+.input-all textarea:focus-visible {
+  outline: none;
+}
+.input-all span {
+  color: #754ef9;
+}
+.col-container {
+  margin: 0 auto;
+  max-width: 360px;
+}
+.text-areaholder {
+  border: none;
+}
+.text-areaholder textarea {
+  width: 100%;
+  border-bottom: 2px solid #754ef9;
+}
+.sec-col-container {
+  padding: 3rem 1rem;
+  text-align: left;
+}
+.sec-col-container h4 {
+  color: #754ef9;
+}
+.social {
+  font-size: 2rem;
+}
+.social a {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+.social a i {
+  color: #754ef9;
+}
+.submit-btn {
+  background-color: #754ef9;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  color: aliceblue;
+  box-shadow: 1px solid black;
+}

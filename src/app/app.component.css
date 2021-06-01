@@ -1,0 +1,9 @@
+main {
+  margin-top: 97px;
+}
+@media only screen and (min-width: 768px) {
+  /* For mobile phones: */
+  main {
+    margin-top: 100px;
+  }
+}
