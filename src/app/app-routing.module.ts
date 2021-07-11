@@ -34,6 +34,7 @@ const routes: Routes = [
     data: { state: 'introduction' },
   },
   { path: '', redirectTo: 'introduction', pathMatch: 'full' },
+  { path: '**', redirectTo: 'introduction', pathMatch: 'full' },
 ];
 
 @NgModule({
