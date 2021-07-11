@@ -11,7 +11,7 @@ p {
   color: #8a8fa3;
   margin: 0px;
 }
-.row {
+.row h1 {
   /* margin: 2rem 0; */
   padding: 1rem 0;
   text-align: center;
@@ -21,19 +21,23 @@ p {
   font-weight: 700;
   margin: 1.5rem 0;
 }
-.progress-bar-outer {
-  margin-top: 0.5rem;
-  height: 4px;
-  width: 100%;
-  border-radius: 2px;
-  background-color: #d9d9d9;
+.image-holder-outer {
+  text-align: center;
 }
-.progress-bar-inner {
-  height: 4px;
-  /* width: 80%; */
-  border-radius: 2px;
-  background-color: #754ef9;
+.image-holder-outer .image-holder {
+  text-align: center;
 }
-.skill-holder {
-  padding: 16px;
+.small-details {
+  font-size: 1rem;
+}
+.col-xs-6 {
+  padding: 1rem;
+  text-align: center;
+}
+ul {
+  text-align: left;
+}
+li {
+  font-size: 0.95rem;
+  color: #8a8fa3;
 }

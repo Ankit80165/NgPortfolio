@@ -16,15 +16,26 @@
   display: inline-block;
   background-color: #754ef9;
 }
+.card-link :focus {
+  box-shadow: none;
+  border: none;
+}
+.btn-primary:focus {
+  box-shadow: none;
+}
+.btn:focus {
+  box-shadow: none;
+}
 .card-title {
   color: #754ef9;
 }
 .card-text {
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 400;
   line-height: 16px;
   color: #8a8fa3;
-  margin: 1.5rem;
+  margin: 1rem;
+  margin-bottom: 0.5rem;
 }
 .row {
   /* margin: 2rem 0; */
@@ -35,4 +46,27 @@
   font-size: 45px;
   font-weight: 700;
   margin: 1.5rem 0;
+}
+.tech-stack {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.tech {
+  font-size: 0.75rem;
+  color: aliceblue;
+  box-shadow: -1px 3px 4px 0px rgba(0, 0, 0, 0.2);
+  background-color: #754ef9;
+  margin: 8px;
+  padding: 4px;
+  border-radius: 4px;
+}
+.card-img-top {
+  height: 100px;
+  /* width: 100px; */
+}
+.weather {
+  height: 130px;
 }

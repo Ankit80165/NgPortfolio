@@ -1,4 +1,7 @@
 <div class="my-container">
+  <div class="backdrop" *ngIf="isLoading">
+    <div class="loader">Loading...</div>
+  </div>
   <div class="container">
     <div class="row container">
       <div class="col">
@@ -22,6 +25,16 @@
                 placeholder="Name"
               />
             </div>
+            <label
+              *ngIf="
+                contactForm.get('name').touched &&
+                contactForm.get('name').errors?.required
+              "
+              class="label-warning"
+            >
+              <i class="fas fa-exclamation-circle"></i>&nbsp;This field is
+              required!
+            </label>
             <div class="input-all">
               <span>
                 <i class="fas fa-envelope"></i>
@@ -34,6 +47,26 @@
                 placeholder="Email"
               />
             </div>
+            <label
+              *ngIf="
+                contactForm.get('email').touched &&
+                contactForm.get('email').errors?.required
+              "
+              class="label-warning"
+            >
+              <i class="fas fa-exclamation-circle"></i>&nbsp;This field is
+              required!
+            </label>
+            <label
+              *ngIf="
+                contactForm.get('email').touched &&
+                contactForm.get('email').errors?.email
+              "
+              class="label-warning"
+            >
+              <i class="fas fa-exclamation-circle"></i>&nbsp;Please Enter a
+              valid email
+            </label>
             <div class="input-all">
               <span>
                 <i class="fas fa-file-alt"></i>
@@ -46,6 +79,16 @@
                 placeholder="Subject"
               />
             </div>
+            <label
+              *ngIf="
+                contactForm.get('subject').touched &&
+                contactForm.get('subject').errors?.required
+              "
+              class="label-warning"
+            >
+              <i class="fas fa-exclamation-circle"></i>&nbsp;This field is
+              required!
+            </label>
             <div class="text-areaholder input-all">
               <textarea
                 name="message"
@@ -56,8 +99,24 @@
                 placeholder="Your Message"
               ></textarea>
             </div>
+            <label
+              *ngIf="
+                contactForm.get('message').touched &&
+                contactForm.get('message').errors?.required
+              "
+              class="label-warning"
+            >
+              <i class="fas fa-exclamation-circle"></i>&nbsp;This field is
+              required!
+            </label>
             <div>
-              <button class="submit-btn" type="submit">Send Message</button>
+              <button
+                class="submit-btn"
+                type="submit"
+                [disabled]="contactForm.invalid"
+              >
+                Send Message
+              </button>
             </div>
           </form>
         </div>
