@@ -10,6 +10,8 @@ import { ProjectsComponent } from './my-profile/projects/projects.component';
 import { SkillsComponent } from './my-profile/skills/skills.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'introduction', pathMatch: 'full' },
+  
   { path: 'about', component: AboutComponent, data: { state: 'about' } },
   {
     path: 'experience',
@@ -33,7 +35,6 @@ const routes: Routes = [
     component: IntroductionComponent,
     data: { state: 'introduction' },
   },
-  { path: '', redirectTo: 'introduction', pathMatch: 'full' },
   { path: '**', redirectTo: 'introduction', pathMatch: 'full' },
 ];
 
