@@ -2,8 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
 
-Frontend technologies : Angular 11, Bootstrap 4
-Backedn technologies : Node JS and NodeMailer(Only used for receiving mail.)
+a.Frontend technologies : Angular 11, Bootstrap 4
+b.Backedn technologies : Node JS and NodeMailer(Only used for receiving mail.)
 
 ## Screenshots
 
