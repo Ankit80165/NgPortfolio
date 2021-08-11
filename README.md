@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
 
+Frontend technologies : Angular 11, Bootstrap 4
+Backedn technologies : Node JS and NodeMailer(Only used for receiving mail.)
+
+## Screenshots
+
+![Alt text](src/assets/screenshots/landing.png "landing page")
+
+![Alt text](src/assets/screenshots/about.png "About Page")
+
+![Alt text](src/assets/screenshots/skills.png "Skills Page")
+![Alt text](src/assets/screenshots/contact.png "Contact Page")
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
